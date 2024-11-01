@@ -1,0 +1,77 @@
+.container {
+    min-width: 320px;
+    width: 30%;
+    border: 1px solid lightgrey;
+    margin: 50px auto;
+    padding: 10px;
+    font-size: 12px;
+    background-color: #eff1f4;
+}
+
+.top-line {
+    display: flex;
+    color: #3c5278;
+    font-weight: bold;
+    justify-content: space-between;
+}
+
+.icon{
+   margin-bottom: -4px;
+}
+
+.icon-title {
+    margin-left: 10px;
+}
+
+.cross {
+    border: none;
+    background-color: none;
+}
+
+.cross:hover {
+outline: 1px solid lightgray
+}
+
+.creation-box {
+    position: relative;
+    display: flex;
+    margin: 10px 0;
+}
+
+.avatar-img {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    background-color: #3c5278;
+    border-radius: 50%;
+}
+.textarea {
+    flex-grow: 1;
+    resize: none;
+    padding: 10px 20px 10px 10px;
+    color: gray;
+    border: none;
+}
+
+.emoji {
+    position: absolute;
+    bottom: 4px;
+    right: 14px;
+}
+
+.send {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn {
+    width: 100px;
+    height: 30px;
+    background-color: #3c5278;
+    color: #fff;
+}
+
+.btn:hover {
+    outline: 1px solid #3c5278;
+    cursor: pointer;
+}

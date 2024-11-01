@@ -1,0 +1,77 @@
+.card-container {
+    width: 30%;
+    min-width: 320px;
+    font-size: 14px;
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid lightgray;
+    margin: 50px auto;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    background-color: #eff1f4;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.cross {
+    border: none;
+    background-color: none;
+}
+
+.cross:hover {
+outline: 1px solid lightgray
+}
+
+.edit-post {
+    position: relative;
+    display: flex;
+    margin: 10px 0;
+}
+
+.avatar-img {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    background-color: #3c5278;
+    border-radius: 50%;
+}
+.textarea {
+    flex-grow: 1;
+    resize: none;
+    padding: 10px 20px 10px 10px;
+    color: gray;
+    border: 1px solid lightgray;
+}
+
+.emoji {
+    position: absolute;
+    bottom: 4px;
+    right: 14px;
+}
+
+.safe {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    border-top: 1px solid lightgray;
+    padding-top: 10px;
+}
+
+.safe-btn {
+    width: 100px;
+    height: 30px;
+    background-color: #3c5278;
+    color: #fff;
+}
+
+.safe-btn:hover {
+    outline: 1px solid #3c5278;
+    cursor: pointer;
+}
+
+
+
